@@ -23,6 +23,13 @@
   color: #61dafb;
 }
 
+.mainContainer {
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  width: 100vw;
+  height: 100vh;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
