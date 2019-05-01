@@ -13,8 +13,9 @@ export default class App extends Component {
     }
   }
 
-  pageSwitcher = () => {
-    console.log('s')
+  pageSwitcher = (page) => {
+    console.log(page)
+    this.setState({currPage: page})
   }
 
   pageRender = () => {
@@ -25,7 +26,7 @@ render(){
   return (
     <div className="mainContainer">
       <NavBar />
-      <MainContent pageRender={this.pageRender}/>
+      <MainContent pageRender={this.pageRender} currPage={this.state.currPage}/>
       <BottomBar pageSwitcher={this.pageSwitcher}></BottomBar>
     </div>
   );

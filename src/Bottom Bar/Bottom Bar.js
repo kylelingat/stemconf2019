@@ -12,8 +12,8 @@ export default class BottomBar extends Component {
   render() {
     return (
       <div className="bottomBar">
-        <div className="bottomBarItem">home</div>
-        <div className="bottomBarItem">test</div>
+        <div className="bottomBarItem" onClick={this.props.pageSwitcher.bind(this, 'home')}>home</div>
+        <div className="bottomBarItem" onClick={this.props.pageSwitcher.bind(this, 'test')}>test</div>
         <div className="bottomBarItem">test2</div>
       </div>
     );

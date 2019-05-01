@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-export default class Home extends Component {
+export default class Test extends Component {
   constructor(props) {
     super(props);
 
@@ -11,8 +11,8 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div className="homePage">
-        home
+      <div className="test">
+        test
       </div>
     );
   }
