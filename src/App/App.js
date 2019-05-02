@@ -22,7 +22,9 @@ export default class App extends Component {
       if (
         this.state.currPage === "home" ||
         this.state.currPage === "report" ||
-        this.state.currPage === "information"
+        this.state.currPage === "search" ||
+        this.state.currPage === "information" ||
+        this.state.currPage === "forum"
       ) {
         this.setState({ inSub: false });
       }
@@ -38,6 +40,7 @@ export default class App extends Component {
       if (
         this.state.currPage === "home" ||
         this.state.currPage === "report" ||
+        this.state.currPage === "search" ||
         this.state.currPage === "information" ||
         this.state.currPage === "forum"
       ) {

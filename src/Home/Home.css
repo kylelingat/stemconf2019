@@ -1,6 +1,6 @@
 .homePage {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 1px;
 }
 
 .homeHeader {
@@ -13,7 +13,7 @@
     height: 200px;
     background-image: url("../Images/header.jpg");
     background-position: center;
-    filter: blur(2px)
+    filter: blur(1.5px)
 }
 
 .homeHeaderText {

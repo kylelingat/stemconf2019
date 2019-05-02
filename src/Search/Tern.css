@@ -1,0 +1,55 @@
+
+.findTernHeader {
+    font-family: 'Lato';
+    opacity: 0.6;
+}
+
+.findTernHeader h1 {
+    margin: 10px;
+    font-size: 1.4em;
+}
+
+.ternContainer {
+
+}
+
+.ternGridContainer {
+    display: grid;
+    grid-gap: 1px;
+}
+
+.ternItems {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 10px;
+}
+
+.ternItems h1, .ternItems h2, .ternItems h3 {
+    grid-column-start: 1;
+    margin: 5px;
+    font-family: 'Lato';
+    font-weight: lighter;
+}
+
+.ternItems h2 {
+    opacity: 0.8;
+    font-size: 1.2em;
+}
+
+.ternItems h3 {
+    opacity: 0.6;
+    font-size: 1em;
+}
+
+.ternPic {
+    background-color: red;
+    background-image: url("../Images/search1.jpg");
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    grid-column-start: 2;
+    
+}

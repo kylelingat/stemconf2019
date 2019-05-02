@@ -1,7 +1,7 @@
 .reportContainer {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
 }
 
 .reportButton {
@@ -35,6 +35,7 @@
 .rpLive{
     background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url("../Images//pic3.jpg");
     background-position: center;
+    grid-column-end: span 2;
 }
 
 .reportButton h1 {

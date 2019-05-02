@@ -1,6 +1,7 @@
 .navBar {
     background-color: var(--topBar-color);
     position: relative;
+    border-bottom: 5px solid var(--bottomBarAccent-color);
 }
 
 .navBarLeft {
@@ -25,6 +26,9 @@
 
 .navBarMid {
     font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 0.9em;
     color: white;
     text-align: center;
 }

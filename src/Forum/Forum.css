@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows: 1fr;
+    padding: 10px;
 }
 
 .topicsTitle {
@@ -43,8 +44,7 @@
 
 .forumCard {
     background-color: #F0F0F0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     height: 80px;
     display: grid;
     grid-template-rows: 4fr 1fr;
@@ -88,6 +88,7 @@
     grid-column-start: 2;
     opacity: 0.6;
     font-weight: 400;
+    font-family: 'Roboto';
 }
 
 .forumCard h3 {
@@ -105,4 +106,132 @@
 
 .forumCard:last-child {
     border-radius: 0px 0px 10px 10px;
+}
+
+.threadContainer {
+    display: grid;
+}
+
+.threadForumCard {
+    background-color: #F0F0F0;
+    padding: 10px;
+    height: 80px;
+    display: grid;
+    grid-template-rows: 4fr 1fr 1fr 1fr;
+    grid-template-columns: 15% 85%;
+}
+
+.threadForumCard h1 {
+    margin: 5px;
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    font-size: 1em;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.threadForumCard h2 {
+    margin: 5px;
+    font-size: 0.8em;
+    grid-column-start: 2;
+    opacity: 0.6;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.threadForumCard h3 {
+    grid-row-start: 3;
+    grid-column-end: span 2;
+    background-color: #F8F8F8;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    opacity: 0.6;
+    margin-left: 12px;
+}
+
+.threadComments {
+    background-color: #F8F8F8;
+}
+
+.tcHeader {
+    background-color: #F8F8F8;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    padding-left: 12px;
+}
+
+.threadCommentItem {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    position: relative;
+    padding: 10px;
+}
+
+.threadCommentItem h1 {
+    margin: 5px;
+    font-size: 1em;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.threadCommentItem h2 {
+    margin: 5px;
+    font-size: 1em;
+    opacity: 0.6;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.threadCommentItem h3{
+    margin: 5px;
+    font-size: 1em;
+    opacity: 0.6;
+    font-weight: 400;
+    font-family: 'Roboto';
+    position: absolute;
+    right: 10px;
+    top: 20%;
+}
+
+.addCommentContainer {
+    background-color: #F8F8F8;
+    display: grid;
+    grid-template-columns: 80% 5% 15%;
+    padding: 10px;
+}
+
+.addCommentWrap {
+    background-color: #E8E8E8;
+    border-radius: 15px;
+}
+
+.addCommentWrap h1{
+    margin: 13px;
+    opacity: 0.8;
+    font-size: 1em;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.addCommentButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-column-start: 3;
+}
+
+.addCommentButton svg {
+    background-color: var(--bottomBar-color);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
 }

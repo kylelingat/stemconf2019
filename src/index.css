@@ -16,6 +16,7 @@ body {
 :root {
   --topBar-color: #1AA6B7;
   --bottomBar-color: #1AA6B7;
+  --bottomBarAccent-color: #17BEBB;
 }
 
 #root {

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Home from "../Home/Home.js";
 import Search from "../Search/Search.js"
+import Tern from "../Search/Tern.js"
 import Report from "../Report/Report.js";
 import RpReport from "../Report/rpSubmit.js";
 import RpSubmit from "../Report/rpSubmit.js";
@@ -19,7 +20,9 @@ export default class MainContent extends Component {
     if (this.props.currPage === "home") {
       currPage = <Home />;
     } else if (this.props.currPage === "search") {
-      currPage = <Search />;
+      currPage = <Search pageRender={this.props.pageRender} />;
+    } else if (this.props.currPage === "tern") {
+      currPage = <Tern />;
     } else if (this.props.currPage === "report") {
       currPage = <Report pageRender={this.props.pageRender} />;
     } else if (this.props.currPage === "rpSubmit") {

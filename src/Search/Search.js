@@ -11,7 +11,7 @@ export default class Report extends Component {
   render() {
     return (
       <div className="searchContainer">
-        <div className="findTernNest">
+        <div className="findTernNest" onClick={(e) => this.props.pageRender("tern", "search", true)}>
           <div className="findTernNestImg" />
           <h1 className="findTernNestText">Find Tern Nests near me</h1>
         </div>
