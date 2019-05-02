@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faUserAlt } from "@fortawesome/free-solid-svg-icons";
 
-export default class RpSubmit extends Component {
+export default class Thread extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return (
-      <div className="reportContainer">
-      rpsubmits
+      <div className="threadContainer">
+        thread container
       </div>
     );
   }

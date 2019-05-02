@@ -35,4 +35,5 @@
     letter-spacing: 1.2px;
     line-height: 25px;
     padding: 5px;
+    border-left: 5px solid var(--bottomBar-color);
 }

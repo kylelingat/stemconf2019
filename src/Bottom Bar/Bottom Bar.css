@@ -1,11 +1,11 @@
 .bottomBar {
     background-color: var(--bottomBar-color);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
 }
 
 .bottomBarItem {
-    border-right: 1px solid #E8E8E8;
+    border-right: 1px solid rgba(255,255,255,0.4);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

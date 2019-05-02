@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Nav Bar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 export default class NavBar extends Component {
   constructor(props) {
@@ -19,7 +19,11 @@ export default class NavBar extends Component {
   render() {
     return (
       <div className="navBar">
-        <div className="navBarLeft" onClick={this.props.backButtonHandler}>{this.props.inSub === true ? "back" : null}</div>
+        <div className="navBarLeft" onClick={this.props.backButtonHandler}>
+          {this.props.inSub === true ? (
+            <FontAwesomeIcon icon={faArrowLeft} />
+          ) : null}
+        </div>
         <div className="navBarMid">
           <h1>{this.props.currNavHeader}</h1>
         </div>

@@ -1,0 +1,108 @@
+.forumContainer {
+
+}
+
+.topicGrid {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1fr;
+}
+
+.topicsTitle {
+    color: gray;
+    font-family: 'Lato';
+    font-size: 1.7em;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.postThread {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.postThread svg {
+    background-color: var(--bottomBar-color);
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.forumCards {
+    margin-top: 15px;
+    display: grid;
+}
+
+
+.forumCard {
+    background-color: #F0F0F0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    grid-template-columns: 15% 85%;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.forumUserCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-row-end: span 2;
+}
+
+.forumUserCard svg {
+    border-radius: 50%;
+    background-color: var(--bottomBar-color);
+    color: white;
+    padding: 6px;
+}
+
+.forumCard h1 {
+    margin: 5px;
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    font-size: 1em;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.forumCard h2 {
+    margin: 5px;
+    font-size: 0.8em;
+    grid-column-start: 2;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.forumCard h3 {
+    margin: 5px;
+    font-size: 0.8em;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.forumCard:first-child {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.forumCard:last-child {
+    border-radius: 0px 0px 10px 10px;
+}

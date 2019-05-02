@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faSearch, faCommentDots } from "@fortawesome/free-solid-svg-icons";
 import { faPen } from "@fortawesome/free-solid-svg-icons";
 import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import "./Bottom Bar.css";
@@ -21,6 +21,12 @@ export default class BottomBar extends Component {
         </div>
         <div
           className="bottomBarItem"
+          onClick={(e) => this.props.pageSwitcher("search", "Search")}
+        >
+          <FontAwesomeIcon icon={faSearch} />
+        </div>
+        <div
+          className="bottomBarItem"
           onClick={(e) => this.props.pageSwitcher("report", "Report")}
         >
           <FontAwesomeIcon icon={faPen} />
@@ -30,6 +36,12 @@ export default class BottomBar extends Component {
           onClick={(e) => this.props.pageSwitcher("information", "Learn More")}
         >
           <FontAwesomeIcon icon={faInfoCircle} />
+        </div>
+        <div
+          className="bottomBarItem"
+          onClick={(e) => this.props.pageSwitcher("forum", "Forum")}
+        >
+          <FontAwesomeIcon icon={faCommentDots} />
         </div>
       </div>
     );
