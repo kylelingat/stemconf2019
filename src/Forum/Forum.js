@@ -24,35 +24,35 @@ export default class Forum extends Component {
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
             <h1>What do I do when I see a damaged tree?</h1>
-            <h2>John Doe • 1 replies • 1 minute ago</h2>
+            <h2>John Doe • 4 replies • 30 minutes ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
             <h1>I just found an unmarked nest. What do I do?</h1>
-            <h2>Angel Wall • 4 replies • 3 minutes ago</h2>
+            <h2>Angel Wall • 4 replies • 35 minutes ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
             <h1>Anyone wanna go tern-watching together?</h1>
-            <h2>Doug White • 3 replies • 3 minutes ago</h2>
+            <h2>Doug White • 3 replies • 41 minutes ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
             <h1>I just saw a chick at the base of a tree!</h1>
-            <h2>Dylan Sakata • 6 replies • 25 minutes ago</h2>
+            <h2>Dylan Sakata • 6 replies • 1 hour ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
             <h1>Can white terns lead fishermen to good fishing areas?</h1>
-            <h2>Zak Tucker • 5 replies • 1 hour ago</h2>
+            <h2>Zak Tucker • 5 replies • 1 day ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">

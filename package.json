@@ -13,6 +13,7 @@
     "npm": "^6.9.0",
     "react": "^16.8.6",
     "react-accessible-accordion": "^3.0.0",
+    "react-aframe-ar": "^1.18.0",
     "react-csv-to-table": "0.0.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",

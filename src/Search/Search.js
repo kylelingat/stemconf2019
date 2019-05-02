@@ -16,6 +16,10 @@ export default class Report extends Component {
           <h1 className="findTernNestText">Find Tern Nests near me</h1>
         </div>
         <div className="findTernNest" onClick={(e) => this.props.pageRender("tern", "search", true)}>
+          <div className="findTernNestImg" />
+          <h1 className="findTernNestText">ExploAR Tern Territory</h1>
+        </div>
+        <div className="findTernNest" onClick={(e) => this.props.pageRender("tern", "search", true)}>
           <div className="viewActiveImg" />
           <h1 className="findTernNestText">View Active Tern Database</h1>
         </div>
