@@ -13,15 +13,17 @@ export default class NavBar extends Component {
   }
 
   toggleNavBar = () => {
-    this.setState({navBarOpen: !this.state.navBarOpen})
-  }
+    this.setState({ navBarOpen: !this.state.navBarOpen });
+  };
 
   render() {
     return (
       <div className="navBar">
-        <div className="navBarLeft" />
-        <div className="navBarMid" />
-        <div className="navBarRight" onClick={this.toggleNavBar}>
+        <div className="navBarLeft" onClick={this.props.backButtonHandler}>{this.props.inSub === true ? "back" : null}</div>
+        <div className="navBarMid">
+          <h1>{this.props.currNavHeader}</h1>
+        </div>
+        {/* <div className="navBarRight" onClick={this.toggleNavBar}>
           <FontAwesomeIcon icon={faBars} />
         </div>
         {/* {this.state.navBarOpen === true ?(<div className="navBarHidden">

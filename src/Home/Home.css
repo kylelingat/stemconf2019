@@ -1,0 +1,38 @@
+.homePage {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.homeHeader {
+    position: relative;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.homeHeaderImg {
+    height: 200px;
+    background-image: url("../Images/header.jpg");
+    background-position: center;
+    filter: blur(2px)
+}
+
+.homeHeaderText {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0px;
+    font-family: 'Lato'
+}
+
+.homeBox {
+    background-color: #E8E8E8;
+    font-family: 'Roboto';
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    padding: 5px;
+}

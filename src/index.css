@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
   width: 100vw;
   height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -8,6 +11,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --topBar-color: #1AA6B7;
+  --bottomBar-color: #1AA6B7;
 }
 
 #root {

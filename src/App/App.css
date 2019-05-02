@@ -26,8 +26,8 @@
 .mainContainer {
   display: grid;
   grid-template-rows: 10% 80% 10%;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 @keyframes App-logo-spin {

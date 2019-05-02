@@ -1,0 +1,48 @@
+.reportContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.reportButton {
+    background-color: red;
+    border-radius: 5px;
+    position: relative;
+    height: 300px;
+}
+
+.reportButton h1 {
+    font-size: 1.5em;
+    color: white;
+    
+}
+
+.reportButtonImg {
+    width: 100%;
+    height: 100%;
+}
+
+.rpSubmit{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url("../Images//pic1.jpg");
+    background-position: center;
+}
+
+.rpReport{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url("../Images//pic2.jpg");
+    background-position: center;
+}
+
+.rpLive{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url("../Images//pic3.jpg");
+    background-position: center;
+}
+
+.reportButton h1 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    font-size: 17px;
+}

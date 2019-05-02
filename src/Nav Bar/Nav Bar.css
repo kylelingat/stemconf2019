@@ -1,7 +1,12 @@
 .navBar {
-    background-color: green;
+    background-color: var(--topBar-color);
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.navBarMid {
+    font-family: 'Lato';
+    color: white;
 }
 
 .navBarRight {
