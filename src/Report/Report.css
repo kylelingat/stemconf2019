@@ -5,7 +5,6 @@
 }
 
 .reportButton {
-    background-color: red;
     border-radius: 5px;
     position: relative;
     height: 400px;
@@ -47,3 +46,44 @@
     letter-spacing: 3px;
     font-size: 17px;
 }
+
+.rpSubmitContainer h1 {
+    text-align: center;
+    font-family: 'Lato';
+    color: #333;
+    font-size: 1.3em;
+}
+form {
+    padding: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    float: right;
+    background-color: var(--bottomBar-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  
+  label {
+      font-family: 'Lato';
+      opacity: 0.8;
+  }

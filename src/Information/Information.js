@@ -49,7 +49,6 @@ export default class Information extends Component {
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <p>
                 If you find a chick on the ground...
                 <ol>
                   <li>
@@ -139,7 +138,6 @@ export default class Information extends Component {
                     </font>
                   </li>
                 </ul>
-              </p>
             </AccordionItemPanel>
           </AccordionItem>
           <AccordionItem>
