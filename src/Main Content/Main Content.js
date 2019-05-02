@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Home from "../Home/Home.js";
-import Search from "../Search/Search.js"
+import Search from "../Search/Search.js";
+import Augmented from "../Augmented/Augmented.js";
 import Report from "../Report/Report.js";
 import RpReport from "../Report/rpSubmit.js";
 import RpSubmit from "../Report/rpSubmit.js";
