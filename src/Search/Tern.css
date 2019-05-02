@@ -2,11 +2,17 @@
 .findTernHeader {
     font-family: 'Lato';
     opacity: 0.6;
+    display: flex;
+    justify-content: space-between;
 }
 
 .findTernHeader h1 {
     margin: 10px;
     font-size: 1.4em;
+}
+
+.findTernHeader p {
+    margin-right: 1em;
 }
 
 .ternContainer {

@@ -13,6 +13,7 @@ export default class Tern extends Component {
       <div className="ternContainer">
         <div className="findTernHeader">
           <h1>Terns Nearby</h1>
+          <p>See on Map >></p>
         </div>
         <div className="ternGridContainer">
           <div className="ternItems">
