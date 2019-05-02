@@ -38,9 +38,10 @@ export default class App extends Component {
       if (
         this.state.currPage === "home" ||
         this.state.currPage === "report" ||
-        this.state.currPage === "information"
+        this.state.currPage === "information" ||
+        this.state.currPage === "forum"
       ) {
-        this.setState({ inSub: false });
+        this.setState({ cache: null, inSub: false });
       }
     });
   };
