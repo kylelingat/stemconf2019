@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/stemconf2019/static/css/main.f4cd8321.chunk.css",
+    "main.js": "/stemconf2019/static/js/main.6db8501f.chunk.js",
+    "main.js.map": "/stemconf2019/static/js/main.6db8501f.chunk.js.map",
+    "runtime~main.js": "/stemconf2019/static/js/runtime~main.9c919b9d.js",
+    "runtime~main.js.map": "/stemconf2019/static/js/runtime~main.9c919b9d.js.map",
+    "static/css/2.ee687732.chunk.css": "/stemconf2019/static/css/2.ee687732.chunk.css",
+    "static/js/2.97886aae.chunk.js": "/stemconf2019/static/js/2.97886aae.chunk.js",
+    "static/js/2.97886aae.chunk.js.map": "/stemconf2019/static/js/2.97886aae.chunk.js.map",
+    "index.html": "/stemconf2019/index.html",
+    "precache-manifest.0b9bbfee0a8c943ce943d1386cbf68b4.js": "/stemconf2019/precache-manifest.0b9bbfee0a8c943ce943d1386cbf68b4.js",
+    "service-worker.js": "/stemconf2019/service-worker.js",
+    "static/css/2.ee687732.chunk.css.map": "/stemconf2019/static/css/2.ee687732.chunk.css.map",
+    "static/css/main.f4cd8321.chunk.css.map": "/stemconf2019/static/css/main.f4cd8321.chunk.css.map",
+    "static/media/Home.css": "/stemconf2019/static/media/header.93b0013f.jpg",
+    "static/media/Report.css": "/stemconf2019/static/media/pic3.67d4dfc4.jpg",
+    "static/media/Search.css": "/stemconf2019/static/media/search2.2969f9af.jpg",
+    "static/media/Tern.css": "/stemconf2019/static/media/search1.373df3c4.jpg"
+  }
+}
