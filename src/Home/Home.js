@@ -19,7 +19,7 @@ export default class Home extends Component {
           <p>
             The Hui Manu-o-Kū is a group of conservationists and citizens that
             all have one thing in common: an interest and admiration for White
-            Terns, or manu-o-Kū. This group has formed to ensure that the
+            Terns, or Manu-o-Kū. This group has formed to ensure that the
             official bird of Honolulu is taken care of and watched after.
             Manu-o-Kū is a very unique bird, especially for an urban center like
             Honolulu. We developed a citizen science initiative to help track
