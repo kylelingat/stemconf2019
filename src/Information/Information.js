@@ -31,7 +31,7 @@ export default class Information extends Component {
               <p>
                 The Hui Manu-o-Kū is a group of conservationists and citizens
                 that all have one thing in common: an interest and admiration
-                for White Terns, or manu-o-Kū. This group has formed to ensure
+                for White Terns, or Manu-o-Kū. This group has formed to ensure
                 that the official bird of Honolulu is taken care of and watched
                 after. Manu-o-Kū is a very unique bird, especially for an urban
                 center like Honolulu. We developed a citizen science initiative
@@ -100,7 +100,7 @@ export default class Information extends Component {
                     actions could be critical to a successful nesting season!
                   </strong>
                 </em>
-                If you find an adult manu-o-Kū on the ground, it is likely
+                If you find an adult Manu-o-Kū on the ground, it is likely
                 injured. Please contact one of the people below, and&nbsp;
                 <a
                   href="http://www.whiteterns.org/injuredbird.html"
@@ -144,21 +144,21 @@ export default class Information extends Component {
           </AccordionItem>
           <AccordionItem>
             <AccordionItemHeading>
-              <AccordionItemButton>Tree Trimming with care</AccordionItemButton>
+              <AccordionItemButton>Tree trimming with care</AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
               <p>
-                Tree trimmers have a delicate relationship with manu-o-K​ū. If
+                Tree trimmers have a delicate relationship with Manu-o-K​ū. If
                 trimming isn't done with care, branches that host a nest may be
                 lost. A chick that falls from its nest to the ground will likely
                 die because either the parents won't be able to care for it or
                 it may be attacked by a predator. However, tree trimming can
-                actually be beneficial to manu-o-Kū. Trimming can lead to a scar
+                actually be beneficial to Manu-o-Kū. Trimming can lead to a scar
                 or cup to be formed in the branch. This creates an ideal nesting
                 site that will protect the egg and chick. Keeping a tree trimmed
                 can also make it easier for adults to fly in and out of the
                 tree. Tree trimming may be one explanation for why there are so
-                many manu-o-Kū in Honolulu, but it must be done with the utmost
+                many Manu-o-Kū in Honolulu, but it must be done with the utmost
                 care to ensure no nesting sites are being destroyed.
               </p>
             </AccordionItemPanel>
@@ -172,7 +172,7 @@ export default class Information extends Component {
             <AccordionItemPanel>
               <ul>
                 <li>
-                  Before trimming a tree, inspect the canopy for manu-o-K
+                  Before trimming a tree, inspect the canopy for Manu-o-K
                   <span>
                     ū, inspect the ground for entirely white droppings (looks
                     like white paint splatter) or white feathers and listen for
@@ -187,13 +187,13 @@ export default class Information extends Component {
                   before rechecking the tree.
                 </li>
                 <li>
-                  Do not plan to trim trees that are likely to host a manu-o-K
+                  Do not plan to trim trees that are likely to host a Manu-o-K
                   <span>
                     ū during the busiest part of their breeding season. While
                     they can nest at any time of the year, they busiest part of
                     their breeding season is&nbsp;January to June with a peak in
                     March. Large projects should wait until the end of the year
-                    to minimize impacts on manu-o-Kū.
+                    to minimize impacts on Manu-o-Kū.
                   </span>
                 </li>
                 <li>
@@ -205,12 +205,12 @@ export default class Information extends Component {
                 </li>
                 <li>
                   <span>
-                    The most common trees in Honolulu that manu-o-Kū nest in are
+                    The most common trees in Honolulu that Manu-o-Kū nest in are
                     Kukui, Shower Tree, Monkeypod, Mahogany and Banyans.
                   </span>
                 </li>
                 <li>
-                  If a chick is found on the ground, or an injured manu-o-Kū is
+                  If a chick is found on the ground, or an injured Manu-o-Kū is
                   found, please refer to the&nbsp;
                   <a href="/injuredterns.html">
                     Injured and Abandoned bird&nbsp;page
@@ -220,7 +220,7 @@ export default class Information extends Component {
                 <li>
                   <span>&#8203;</span>
                   <font>
-                    If you would like assistance in determining if a manu-o-Kū
+                    If you would like assistance in determining if a Manu-o-Kū
                     is nesting in a tree or area, you may&nbsp;
                     <a href="http://whiteterns.org/contact">contact us</a>. A
                     member of the Hui Manu-o-K
@@ -237,12 +237,12 @@ export default class Information extends Component {
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton>
-                If you find a chick alone in a tree..
+                If you find a chick alone in a tree...
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
               <p>
-                This chick is not abandoned. Adult manu-o-Kū fly to the ocean to
+                This chick is not abandoned. Adult Manu-o-Kū fly to the ocean to
                 feed, leaving their offspring alone at the nest site. Even
                 day-old chicks are left by themselves for hours. The adults will
                 return with fish to feed the chick throughout the day and will
@@ -260,7 +260,7 @@ export default class Information extends Component {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <p>
-                There are a variety of ways you can help conserve manu-o-Kū. A
+                There are a variety of ways you can help conserve Manu-o-Kū. A
                 citizen scientist can participate in mean incubation counts,
                 report newly discovered nest sites and recently laid eggs in
                 known sites and use photography to document development,
@@ -270,18 +270,64 @@ export default class Information extends Component {
                 registered volunteer, please send an email to hiaudsoc@pixi.com
                 with "Hui Manu-o-Kū" as the subject and your name and contact
                 information. Registered volunteers will stay up-to-date with
-                manu-o-K​ū events and be in contact with the Hui Manu-o-Kū.
+                Manu-o-K​ū events and be in contact with the Hui Manu-o-Kū.
               </p>
             </AccordionItemPanel>
           </AccordionItem>
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton>
-                What is the Hui Manu-o-Kū?
+                Why are the Manu-o-Kū important to the islands?
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <p />
+              <p>
+                Manu-o-Kū are important to our islands because ancient navigators
+                used them as a means of navigating through the Pacific Ocean. Ancient
+                navigators would look to the Manu-o-Kū for guidance to land due to
+                their breeding and feeding habits.
+              </p>
+            </AccordionItemPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemHeading>
+              <AccordionItemButton>
+                How can I spot a Manu-o-Kū nesting spot?
+              </AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+              <p>
+                Manu-o-Kū, or white terns, are distinguishable by their large,
+                beady eyes, pointy beak of medium length, and a fully white set of feathers.
+                At nesting spots, one may typically see a singular egg on its own or under the 
+                care of the adult tern.
+              </p>
+            </AccordionItemPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemHeading>
+              <AccordionItemButton>
+                Where can I find Manu-o-Kū?
+              </AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+              <p>
+                This depends on your location. On the island of Oahu, a majority of
+                Manu-o-Kū may be found in urban areas from Honolulu all the way down to Kailua.
+              </p>
+            </AccordionItemPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemHeading>
+              <AccordionItemButton>
+                Where can I find info about local Manu-o-Kū?
+              </AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+              <p>
+                You can find information about Oahu's Manu-o-Kū by looking at the
+                database on our website.
+              </p>
             </AccordionItemPanel>
           </AccordionItem>
         </Accordion>
