@@ -30,42 +30,42 @@ export default class Forum extends Component {
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
-            <h1>What do I do when I see a damaged tree?</h1>
+            <h1>I just found an unmarked nest. What do I do?</h1>
             <h2>John Doe • 2 replies • 3 minutes ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
-            <h1>What do I do when I see a damaged tree?</h1>
+            <h1>Anyone wanna go tern-watching together?</h1>
             <h2>John Doe • 2 replies • 3 minutes ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
-            <h1>What do I do when I see a damaged tree?</h1>
+            <h1>I just saw a chick at the base of a tree!</h1>
             <h2>John Doe • 2 replies • 3 minutes ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
-            <h1>What do I do when I see a damaged tree?</h1>
+            <h1>Can white terns lead fishermen to good fishing areas?</h1>
             <h2>John Doe • 2 replies • 3 minutes ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
-            <h1>What do I do when I see a damaged tree?</h1>
+            <h1>Looking for a camera to borrow... in need of tern pics!</h1>
             <h2>John Doe • 2 replies • 3 minutes ago</h2>
           </div>
           <div className="forumCard">
             <div className="forumUserCard">
               <FontAwesomeIcon icon={faUserAlt} />
             </div>
-            <h1>What do I do when I see a damaged tree?</h1>
+            <h1>Can white terns be identified by their chirps alone?</h1>
             <h2>John Doe • 2 replies • 3 minutes ago</h2>
           </div>
         </div>
